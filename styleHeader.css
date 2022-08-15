@@ -79,8 +79,41 @@ nav ul ul li a i{
 /*media query*/
 @media only screen and (max-width: 768px) {
  header{
-       width: 90%;
+       width: 100%;
    }
+  nav .logo{
+   padding-left: 35%;
+  }
+   nav ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    left: 0;
+    top: 60px;
+    height: 100vh;
+    text-align: center;
+   }
+   nav ul ul li{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+   }
+  .break{
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+   
+    padding: 135px 0;
+  }
+ 
+   
+ 
+   
 
 }
+
 
