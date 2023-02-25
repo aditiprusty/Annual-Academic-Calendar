@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+
+body{
+
+  background : linear-gradient(45deg, #04619F, #000000)
+}
+
+.wrapper{
+  margin-top: 60px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.wrapper h1{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.our_team{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our_team .team_member{
+  width: 250px;
+  margin: 5px;
+  background: #F1F1F1;
+  padding: 20px 10px;
+}
+
+.our_team .team_member .member_img{
+  background: #e9e5fa;
+  max-width: 190px;
+  width: 100%;
+  height: 190px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.our_team .team_member .member_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.our_team .team_member h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  margin: 15px 0 0px;
+}
+
+.our_team .team_member span{
+  font-size: 10px;
+}
+
+.our_team .team_member p{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.our_team .team_member .member_img .social_media{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: rgba(0,0,0,0.65);
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+   transition: all 0.5s ease;
+}
+
+.our_team .team_member .member_img  .item{
+  margin: 0 10px;
+}
+
+.our_team .team_member .member_img  .fab{
+  color: #192435;
+  font-size: 20px;
+}
+
+button{
+    padding: 6px 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #5a5a5a;
+    background-color: #00adb5;
+    color: antiquewhite;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: #5a5a5a;
+}
